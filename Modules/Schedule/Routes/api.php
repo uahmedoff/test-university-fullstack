@@ -18,7 +18,7 @@ use Modules\Schedule\Http\Controllers\ScheduleController;
 |
 */
 
-Route::prefix('schedule')->middleware('sanctum')->group(function() {
+Route::prefix('schedule')->middleware('auth:sanctum')->group(function() {
     
     // Get list of groups
     Route::get('/groups',[GroupController::class,'index']);
