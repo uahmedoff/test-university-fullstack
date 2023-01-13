@@ -1,0 +1,7 @@
+/* theme color */
+$--color-primary: indigo;
+
+/* icon font path, required */
+$--font-path: 'https://unpkg.com/element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
